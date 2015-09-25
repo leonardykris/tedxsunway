@@ -1,0 +1,116 @@
+//* Variables *//
+
+// Color
+$color-default: #666;
+$color-white: #fff;
+$color-white-darker: #eee;
+$color-alt: #DB362A;
+$color-alt-darker: #BC2D24;
+
+// Images
+$tedx-logo: "/img/TEDxSunwayUniversity_Logo_White.png";
+
+// Colors
+.white {
+	color: $color-white;
+}
+.alt {
+	color: $color-alt;
+}
+.bold {
+	font-weight: 700;
+}
+.font-normal {
+	font-size: 1.5em;
+}
+
+// Type
+.condensed {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    font-style: italic;
+    color: #DB362A;
+}
+
+// Background Color
+.bg-white {
+    background-color: $color-white;
+}
+
+// Rounding
+.rounded {
+    border-radius: 4px;
+}
+.not-rounded {
+	border-radius: 0px;
+}
+
+// Padding
+.rm-padding {
+    padding: 0;
+}
+.padding-left-30 {
+    padding-left: 30px;
+}
+
+// Margin
+.rm-margin-top {
+    margin-top: 0px;
+}
+.rm-margin-right {
+    margin-right: 0px;
+}
+.rm-margin-bottom {
+    margin-bottom: 0px;
+}
+.rm-margin-left {
+    margin-left: 0px;
+}
+.margin-top-10 {
+    margin-top: 10px;
+}
+.margin-top-30 {
+    margin-top: 30px;
+}
+.margin-top-50 {
+    margin-top: 50px;
+}
+.margin-top-70 {
+    margin-top: 70px;
+}
+.margin-top-100 {
+    margin-top: 100px;
+}
+.margin-top-200 {
+    margin-top: 200px;
+}
+.margin-top-300 {
+    margin-top: 300px;
+}
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}
+.margin-bottom-70 {
+    margin-bottom: 70px;
+}
+.margin-bottom-100 {
+    margin-bottom: 100px;
+}
+.margin-bottom-200 {
+    margin-bottom: 200px;
+}
+
+// Border
+.border-top-dotted {
+    border-top: 1px dotted $color-white-darker;
+}
+.border-bottom-dotted {
+    border-bottom: 1px dotted $color-white-darker;
+}
