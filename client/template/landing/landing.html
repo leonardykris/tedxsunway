@@ -4,13 +4,13 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-8">
 				<div class="col-xs-12 rm-padding">
-					<h2 class="condensed">This Week on TEDx</h2>
+					<h2 class="condensed uppercase">This Week on TED<span class="no-text-transform">x</span></h2>
 				</div>
 				<iframe width="100%" height="441" src="https://www.youtube.com/embed/jA2ezOnHzgk" frameborder="0" allowfullscreen></iframe>
 			</div>
 			<div class="col-xs-12 col-sm-4">
 				<div class="col-xs-12 rm-padding">
-					<h2 class="condensed">Upcoming Events</h2>
+					<h2 class="condensed uppercase">Upcoming Events</h2>
 				</div>
 				<div class="col-xs-12 padding-left-30 card">
 					<h3 class="margin-bottom-10">Beyond Status Quo</h3>
@@ -30,33 +30,11 @@
 					</div>
 				</div>
 				<div class="col-xs-12 rm-padding">
-					<a href="" class="btn btn-sign-up rounded text-center">Sign Up</a>
+					<a href="{{ pathFor 'beyondStatusQuo' }}" class="btn btn-sign-up rounded text-center">Sign Up</a>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<section id="about" class="">
-	<div class="container">
-		<div class="row margin-top-30 margin-bottom-70">
-			<div class="col-xs-12">
-				<h2>About</h2>
-			</div>
-			<div class="col-xs-12 col-sm-8">
-			<p>
-				TEDxSunwayUniversity aims to vouch the motto of TED, “Ideas Worth Spreading”, through entertainment, technology, and design. TEDxSunwayUniversity also serves as an avenue for Sunway students to organize events which will focus on individuality and innovation. The students involved will gain a bundle of knowledge and experience through the events that will be held.
-			</p>
-			<p>
-				The objectives of TEDxSunwayUniversity are to encourage students to be shaped by innovation, to encourage students to have confidence in their own ideas and to realize how powerful each ideas are, to promote the culture of public speaking, and to promote learning through observation and discussion.
-			</p>
-			<p>
-				<a>Find out how you can join TEDxSunwayUniversity Committee</a>
-			</p>
-			</div>
-			<div class="col-xs-12 col-sm-4">
-				<img src="/img/TEDxSunway.jpg" class="img-responsive">
-			</div>
-		</div>
-	</div>
-</section>
+{{> about }}
 </template>

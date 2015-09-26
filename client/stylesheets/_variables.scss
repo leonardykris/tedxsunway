@@ -3,9 +3,11 @@
 // Color
 $color-default: #666;
 $color-white: #fff;
-$color-white-darker: #eee;
+$color-white-darker: #fdfdfd;
+$color-white-darker-2: #eee;
 $color-alt: #DB362A;
 $color-alt-darker: #BC2D24;
+$color-black: #000;
 
 // Images
 $tedx-logo: "/img/TEDxSunwayUniversity_Logo_White.png";
@@ -20,22 +22,42 @@ $tedx-logo: "/img/TEDxSunwayUniversity_Logo_White.png";
 .bold {
 	font-weight: 700;
 }
-.font-normal {
-	font-size: 1.5em;
-}
 
 // Type
 .condensed {
     font-family: 'Open Sans Condensed', sans-serif;
-    text-transform: uppercase;
     letter-spacing: -0.5px;
-    font-style: italic;
-    color: #DB362A;
+    // font-style: italic;
+    color: $color-alt;
+}
+.font-normal {
+    font-size: 14px;
+}
+.size-24 {
+    font-size: 24px;
+}
+.bold {
+    font-weight: 700;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.no-text-transform {
+    text-transform: none;
 }
 
 // Background Color
 .bg-white {
     background-color: $color-white;
+}
+.bg-white-darker {
+    background-color: $color-white-darker;
+}
+.bg-white-darker-2 {
+    background-color: $color-white-darker-2;
+}
+.bg-black {
+    background-color: $color-black;
 }
 
 // Rounding
@@ -49,6 +71,9 @@ $tedx-logo: "/img/TEDxSunwayUniversity_Logo_White.png";
 // Padding
 .rm-padding {
     padding: 0;
+}
+.padding-right-20 {
+    padding-right: 20px;
 }
 .padding-left-30 {
     padding-left: 30px;
@@ -108,9 +133,12 @@ $tedx-logo: "/img/TEDxSunwayUniversity_Logo_White.png";
 }
 
 // Border
+.rm-border {
+    border: 0px;
+}
 .border-top-dotted {
-    border-top: 1px dotted $color-white-darker;
+    border-top: 2px dotted $color-white-darker-2;
 }
 .border-bottom-dotted {
-    border-bottom: 1px dotted $color-white-darker;
+    border-bottom: 2px dotted $color-white-darker-2;
 }
